@@ -2,7 +2,7 @@ This is a code and data release for the paper "An Embedding Model for Predicting
 
 Dependencies for preprocessing are Python with NumPy, scikit-learn and the h5py library.  Dependencies for the model are Lua/Torch with the hdf5 and nn packages.  A guide to installing Lua/Torch and associated packages can be found [here](http://torch.ch/docs/getting-started.html).
 
-To generate a dataset, begin by downloading a particular Congress's bill information from [govtrack.us](govtrack.us).  Their bulk data download documentation is available [here](govtrack.us/developers/data).  If experimenting on Congresses after the 114th, you must also download the latest versions of legislators-current.csv and legislators-historic.csv from govtrack.  After downloading, preprocess a govtrack dataset in folder DATA as follows:
+To generate a dataset, begin by downloading a particular Congress's bill information from [govtrack.us](http://govtrack.us).  Their bulk data download documentation is available [here](http://govtrack.us/developers/data).  If experimenting on Congresses after the 114th, you must also download the latest versions of legislators-current.csv and legislators-historic.csv from govtrack.  After downloading, preprocess a govtrack dataset in folder DATA as follows:
 
     python preprocess.py DATA
 
